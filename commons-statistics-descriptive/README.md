@@ -45,7 +45,10 @@ Apache Commons Statistics Descriptive
 
 [![Java CI](https://github.com/apache/commons-statistics/actions/workflows/maven.yml/badge.svg)](https://github.com/apache/commons-statistics/actions/workflows/maven.yml)
 [![Coverage Status](https://codecov.io/gh/apache/commons-statistics/branch/master/graph/badge.svg)](https://app.codecov.io/gh/apache/commons-statistics)
-[![Maven Central](https://img.shields.io/maven-central/v/org.apache.commons/commons-statistics-descriptive?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.commons/commons-statistics-descriptive/)
+[![Maven Central](https://img.shields.io/maven-central/v/org.apache.commons/commons-statistics-descriptive?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.commons/commons-statistics-descriptive)
+[![Javadocs](https://javadoc.io/badge/org.apache.commons/commons-statistics-descriptive/1.3.svg)](https://javadoc.io/doc/org.apache.commons/commons-statistics-descriptive/1.3)
+[![CodeQL](https://github.com/apache/commons-statistics/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/apache/commons-statistics/actions/workflows/codeql-analysis.yml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apache/commons-statistics/badge)](https://api.securityscorecards.dev/projects/github.com/apache/commons-statistics)
 
 Descriptive statistics.
 
@@ -66,7 +69,7 @@ Alternatively, you can pull it from the central Maven repositories:
 <dependency>
   <groupId>org.apache.commons</groupId>
   <artifactId>commons-statistics-descriptive</artifactId>
-  <version>1.2</version>
+  <version>1.3</version>
 </dependency>
 ```
 
@@ -87,7 +90,7 @@ There are some guidelines which will make applying PRs easier for us:
 + Respect the existing code style for each file.
 + Create minimal diffs - disable on save actions like reformat source code or organize imports. If you feel the source code should be reformatted create a separate PR for this change.
 + Provide JUnit tests for your changes and make sure your changes don't break any existing tests by running `mvn`.
-+ Before you pushing a PR, run `mvn` (by itself), this runs the default goal, which contains all build checks.
++ Before you push a PR, run `mvn` (without arguments). This runs the default goal which contains all build checks.
 + To see the code coverage report, regardless of coverage failures, run `mvn clean site -Dcommons.jacoco.haltOnFailure=false -Pjacoco`
 
 If you plan to contribute on a regular basis, please consider filing a [contributor license agreement](https://www.apache.org/licenses/#clas).
@@ -109,7 +112,6 @@ Additional Resources
 + [Apache Commons Homepage](https://commons.apache.org/)
 + [Apache Issue Tracker (JIRA)](https://issues.apache.org/jira/browse/STATISTICS)
 + [Apache Commons Slack Channel](https://the-asf.slack.com/archives/C60NVB8AD)
-+ [Apache Commons Twitter Account](https://twitter.com/ApacheCommons)
 
 Apache Commons Components
 -------------------------
