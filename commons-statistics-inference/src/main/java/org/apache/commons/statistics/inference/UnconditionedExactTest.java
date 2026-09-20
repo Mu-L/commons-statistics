@@ -1102,9 +1102,9 @@ public final class UnconditionedExactTest {
 
     /**
      * Add point 2 to the list of minima if neither neighbour value is lower.
-     * <pre>
+     * <pre>{@code
      * !(v1 < v2 || v3 < v2)
-     * </pre>
+     * }</pre>
      *
      * @param minima Candidate minima.
      * @param v1 First point function value.

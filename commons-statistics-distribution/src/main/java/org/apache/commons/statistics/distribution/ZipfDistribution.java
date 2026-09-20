@@ -187,9 +187,9 @@ public final class ZipfDistribution extends AbstractDiscreteDistribution {
          * <p>Note: It should not be possible for the series summation to exceed the N-th
          * harmonic. This has been computed using a difference of zeta terms:
          *
-         * <pre>
+         * <pre>{@code
          *   zeta(s, a) - zeta(s, b+1) <= zeta(s, 1) - zeta(s, N+1)  where a >= 1 and b <= N
-         * </pre>
+         * }</pre>
          *
          * <p>The zeta difference will only exceed the normalizing constant due to
          * floating-point error in the zeta function.
@@ -198,7 +198,7 @@ public final class ZipfDistribution extends AbstractDiscreteDistribution {
          * function. This may occur as the power terms approach zero (sub-normal
          * summation) when s or n are both large. Since n is bounded to an integer the
          * value is always suitable for evaluation of k^-s with k in integer [1, n], i.e.
-         * we never see 1 + n == n as n < 2^53. The only errors are expected when s is
+         * we never see 1 + n == n as {@code n < 2^53}. The only errors are expected when s is
          * very large.
          *
          * @param x Value

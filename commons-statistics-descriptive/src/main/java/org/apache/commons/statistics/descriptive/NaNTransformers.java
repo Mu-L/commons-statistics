@@ -158,7 +158,7 @@ final class NaNTransformers {
     /**
      * Copy the specified range of data.
      *
-     * <p>This is a simplification of {@link Arrays#copyOfRange(double[], int, int)}
+     * <p>This is a simplification of {@link java.util.Arrays#copyOfRange(double[], int, int)}
      * and does not support range checks or padding of the original input to
      * a longer output.
      *

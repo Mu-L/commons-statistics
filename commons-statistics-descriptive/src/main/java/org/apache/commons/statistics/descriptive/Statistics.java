@@ -501,7 +501,7 @@ final class Statistics {
     /**
      * Copy the specified range of data.
      *
-     * <p>This is a simplification of {@link Arrays#copyOfRange(int[], int, int)}
+     * <p>This is a simplification of {@link java.util.Arrays#copyOfRange(int[], int, int)}
      * and does not support range checks or padding of the original input to
      * a longer output.
      *
@@ -520,7 +520,7 @@ final class Statistics {
     /**
      * Copy the specified range of data.
      *
-     * <p>This is a simplification of {@link Arrays#copyOfRange(long[], int, int)}
+     * <p>This is a simplification of {@link java.util.Arrays#copyOfRange(long[], int, int)}
      * and does not support range checks or padding of the original input to
      * a longer output.
      *

@@ -153,7 +153,7 @@ class Hypergeom {
      * Compute the cumulative distribution function (CDF) at the specified value.
      *
      * @param x Value.
-     * @return P(X <= x)
+     * @return {@code P(X <= x)}
      */
     double cdf(int x) {
         if (x < lowerBound) {
@@ -175,7 +175,7 @@ class Hypergeom {
      * cumulative distribution function.
      *
      * @param x Value.
-     * @return P(X > x)
+     * @return {@code P(X > x)}
      */
     double sf(int x) {
         if (x < lowerBound) {

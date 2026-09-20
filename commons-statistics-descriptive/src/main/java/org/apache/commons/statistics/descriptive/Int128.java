@@ -27,7 +27,7 @@ import org.apache.commons.numbers.core.DD;
  *
  * <p>Note: This number uses a signed long integer representation of:
  *
- * <pre>value = 2<sup>64</sup> * hi64 + lo64</pre>
+ * <pre>value = 2^64 * hi64 + lo64</pre>
  *
  * <p>If the high value is zero then the low value is the long representation of the
  * number including the sign bit. Otherwise the low value corresponds to a correction
